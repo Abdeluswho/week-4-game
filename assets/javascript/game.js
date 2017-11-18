@@ -14,7 +14,7 @@ var cryst3 = random(1,12);
 var cryst4 = random(1,12);
 var rand = random(19,120);
 //The random number:
-	divrand.html('<p>The new number to match is:   ' + rand +'</p>' );
+	divrand.html('<header>The new number to match is:    ' + rand +'</header>' );
 
 
 
@@ -99,14 +99,14 @@ var test = function(){
 
 //reset
 var reset = function(){
-	var x = confirm('Would you like to try again!');
+	var x = confirm('Would you like to try again?');
 	if (x) {
 	cryst1 = random(1,12);
 	cryst2 = random(1,12);
 	cryst3 = random(1,12);
 	cryst4 = random(1,12);
 	rand = random(19,120);
-	divrand.html('<p>The new number to match is:   ' + rand +'</p>' );
+	divrand.html('<header>The new number to match is:    ' + rand +'</header>' );
 	total = 0;
 
 	}else {

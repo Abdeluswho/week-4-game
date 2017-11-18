@@ -1,5 +1,42 @@
-.container, #random, #score, #crystal, #total, #crystnum, header, p {
-	border: 2px solid black;
+#crystal {
+	
+
+	padding: 15px;
+
+	float:left;
+
+}
+body {
+	background-color: lightblue;
+}
+
+.container {
+	background-color:;
+}
+p{
+	width: 40%;
+	line-height: 25px;
+	border: 1px solid grey;
 	margin: 10px;
 	padding: 10px;
+	background-color: white;
+}
+
+header{
+	
+	margin: 10px;
+	padding: 10px;
+	width: 40%;
+	color: black;
+	background-color: white;
+
+}
+#score, #total,  #crystnum {
+	background-color: white;
+	border: 1px solid grey;
+	margin: 10px;
+	padding: 10px;
+	width: 40%;
+	color:black;
+
 }
